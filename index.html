@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <title>Product cards</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <div
+      class="card"
+      data-qa="card"
+    >
+      <div class="card__info">
+        <div class="info__container">
+          <h2 class="card__title">
+            Unclaimed fees
+          </h2>
+
+          <h1 class="card__fees">$8.80</h1>
+        </div>
+        <a
+        class="card__button"
+        href="#buy"
+        data-qa="hover"
+      >
+        Collect fees
+      </a>
+      </div>
+      <div class="card__price price">
+        <div class="price__container">
+          <div class="price">
+            <div class="price__details">
+              <img
+                src="https://seeklogo.com/images/U/usd-coin-usdc-logo-CB4C5B1C51-seeklogo.com.png"
+                alt="USDC Logo"
+                class="price__logo"
+              >
+              <p class="price__text">USDC</p>
+            </div>
+          </div>
+          <p class="price__sum">4.74</p>
+        </div>
+        <div class="price__container">
+          <div class="price">
+            <div class="price__details">
+              <img
+                src="https://seeklogo.com/images/T/tether-usdt-logo-FA55C7F397-seeklogo.com.png"
+                alt="USDT logo"
+                class="price__logo"
+              >
+              <p class="price__text">USDT</p>
+            </div>
+          </div>
+          <p class="price__sum">4.065</p>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
